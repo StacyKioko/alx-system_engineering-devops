@@ -1,1 +1,2 @@
-#!/bin/bashnrm /tmp/betty /tmp/my_first_directory/betty
+#!/bin/bash\
+nrm /tmp/betty /tmp/my_first_directory/betty
