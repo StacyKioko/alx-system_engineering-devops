@@ -15,3 +15,5 @@ Task 6-Multiple permissions: chmod ug+x,o+r hello: The script gives execute perm
 Task 7-Everybody!: chmod a+x hello: The script gived everyone (UGO) executing permissions
 
 Task 8-James Bond: chmod 007 hello: The script gives the other users permission to edit while the Owner and group owner of he file do not have any permissions to either write, read or execute on the file hello.
+
+Task 8-John Doe: chmod 753 hello: The script gives the owner permission to read, write and execute, the group owner permission to execute and read, and the others permission to write and execute
