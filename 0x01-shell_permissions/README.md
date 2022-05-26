@@ -21,3 +21,5 @@ Task 9-John Doe: chmod 753 hello: The script gives the owner permission to read,
 Task 10-Look in the mirror:chmod --reference=olleh hello: The script sets the mode of the file hello the same as olleh’s mode
 
 Task 11-Directories:chmod -R +X .: This script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+
+Task 12-More directories:mkdir -m 751 my_dir: The script creates a directory called my_dir with permissions 751 in the working directory
