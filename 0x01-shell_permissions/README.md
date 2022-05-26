@@ -16,6 +16,8 @@ Task 7-Everybody!: chmod a+x hello: The script gived everyone (UGO) executing pe
 
 Task 8-James Bond: chmod 007 hello: The script gives the other users permission to edit while the Owner and group owner of he file do not have any permissions to either write, read or execute on the file hello.
 
-Task 8-John Doe: chmod 753 hello: The script gives the owner permission to read, write and execute, the group owner permission to execute and read, and the others permission to write and execute
+Task 9-John Doe: chmod 753 hello: The script gives the owner permission to read, write and execute, the group owner permission to execute and read, and the others permission to write and execute
 
-Task 9-Look in the mirror:chmod --reference=olleh hello: The script sets the mode of the file hello the same as olleh’s mode
+Task 10-Look in the mirror:chmod --reference=olleh hello: The script sets the mode of the file hello the same as olleh’s mode
+
+Task 11-Directories:chmod -R +X .: This script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
