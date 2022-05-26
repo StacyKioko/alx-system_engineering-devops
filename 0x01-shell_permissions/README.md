@@ -31,3 +31,5 @@ Task 14-Owner and group:chown vincent:staff *: The script changes the owner to v
 Task 15-Symbolic links:chown -h staff:vincent _hello: The script changes the owner and the group owner of _hello to vincent and staff respectively.
 
 Task 16-If only:chown --from=guillaume betty hello: The script changes the owner of the file hello to betty only if it is owned by the user guillaume
+
+Task 17-Star Wars:telnet towel.blinkenlights.nl: The script plays the StarWars IV episode in the terminal.
