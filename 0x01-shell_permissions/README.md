@@ -25,3 +25,5 @@ Task 11-Directories:chmod -R +X .: This script adds execute permission to all su
 Task 12-More directories:mkdir -m 751 my_dir: The script creates a directory called my_dir with permissions 751 in the working directory
 
 Task 13-Change group:chgrp school hello: The script changes the group owner to school for the file hello
+
+Task 14-Owner and group:chown vincent:staff *: The script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
