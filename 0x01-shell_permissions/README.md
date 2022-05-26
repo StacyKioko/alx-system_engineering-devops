@@ -23,3 +23,5 @@ Task 10-Look in the mirror:chmod --reference=olleh hello: The script sets the mo
 Task 11-Directories:chmod -R +X .: This script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 
 Task 12-More directories:mkdir -m 751 my_dir: The script creates a directory called my_dir with permissions 751 in the working directory
+
+Task 13-Change group:chgrp school hello: The script changes the group owner to school for the file hello
