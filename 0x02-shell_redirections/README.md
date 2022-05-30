@@ -23,3 +23,5 @@ Task 10-no_more_js:find . -name '*.js' -type f -delete: The  script that deletes
 Task 11-directories: find -mindepth 1 -type d | wc -l: The counts the number of directories and sub-directories in the current directory
 
 Task 12-newest_files: ls -t | head : The script displays the 10 newest files in the current directory
+
+Task 13-unique:sort | uniq -u: The script takes a list of words as input and prints only words that appear exactly once.
