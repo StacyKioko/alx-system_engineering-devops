@@ -16,8 +16,10 @@ Task 7-file: echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)": 
 
 Task 8-cwd_state: ls -la > ls_cwd_content: The script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it overwrites it.
 
-task 9-duplicate_last_line:echo -en "" | tail --lines=1 iacta >> iacta:The script that duplicates the last line of the file iacta
+Task 9-duplicate_last_line:echo -en "" | tail --lines=1 iacta >> iacta: The script that duplicates the last line of the file iacta
 
-task 10-no_more_js:find . -name '*.js' -type f -delete: the  script that deletes all the regular files (not the directories) with a .js extension
+Task 10-no_more_js:find . -name '*.js' -type f -delete: The  script that deletes all the regular files (not the directories) with a .js extension
 
-task 11-directories:find -mindepth 1 -type d | wc -l: the counts the number of directories and sub-directories in the current directory
+Task 11-directories: find -mindepth 1 -type d | wc -l: The counts the number of directories and sub-directories in the current directory
+
+Task 12-newest_files: ls -t | head : The script displays the 10 newest files in the current directory
