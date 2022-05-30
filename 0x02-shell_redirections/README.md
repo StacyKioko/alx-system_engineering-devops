@@ -7,3 +7,5 @@ Task 2-hellofile: cat /etc/passwd: The script displays the content of the file /
 Task 3-twofiles: cat /etc/passwd /etc/hosts : The scripts diplays the content of two files
 
 Task 4-lastlines: tail /etc/passwd: The script prints the last 10 lines of the file
+
+Task 5-firstlines: head /etc/passwd: The script prints the first 10 lines of the file
