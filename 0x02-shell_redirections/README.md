@@ -11,3 +11,5 @@ Task 4-lastlines: tail /etc/passwd: The script prints the last 10 lines of the f
 Task 5-firstlines: head /etc/passwd: The script prints the first 10 lines of the file
 
 Task 6-third_line: head --lines=3 iacta | tail --lines=1: The script displays the third line of the file iacta
+
+Task 7-file: echo "Holberton School" > "\*\\\'\"Holberton School\"\'\\\*$\?\*\*\*\*\*:)": The shell script creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
