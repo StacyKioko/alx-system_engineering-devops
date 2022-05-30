@@ -19,3 +19,5 @@ Task 8-cwd_state: ls -la > ls_cwd_content: The script that writes into the file 
 task 9-duplicate_last_line:echo -en "" | tail --lines=1 iacta >> iacta:The script that duplicates the last line of the file iacta
 
 task 10-no_more_js:find . -name '*.js' -type f -delete: the  script that deletes all the regular files (not the directories) with a .js extension
+
+task 11-directories:find -mindepth 1 -type d | wc -l: the counts the number of directories and sub-directories in the current directory
