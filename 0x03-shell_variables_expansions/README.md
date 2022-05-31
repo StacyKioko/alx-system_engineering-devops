@@ -23,3 +23,5 @@ Task 10-love_exponent_breath : echo $((BREATH**LOVE)) : The script displays the 
 Task 11-binary_to_decimal : echo "$((2#$BINARY))" : The script converts a number from base 2 to base 10.
 
 Task 12-combinations : printf "%s\n" {a..z}{a..z} | grep -v "oo" : The script prints all possible combinations of two letters, except oo.
+
+Task 13-print_float : printf "%.2f\n" $NUM : The script prints a number with two decimal places, followed by a new line.
