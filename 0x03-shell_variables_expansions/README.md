@@ -9,3 +9,5 @@ Task 3-paths : echo $PATH | tr -s ":" "\n" | wc -l : The script counts the numbe
 Task 4-global_variables : printenv : The script lists all environment variables
 
 Tast 5-local_variables : set : The script lists all local variables and environment variables, and functions.
+
+Task 6-create_local_variable : BEST="School" : The script creates a new local variable
