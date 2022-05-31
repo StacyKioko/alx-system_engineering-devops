@@ -21,3 +21,5 @@ Task 9-divide_and_rule: echo $((POWER/DIVIDE)) : The script prints the result of
 Task 10-love_exponent_breath : echo $((BREATH**LOVE)) : The script displays the result of BREATH to the power LOVE
 
 Task 11-binary_to_decimal : echo "$((2#$BINARY))" : The script converts a number from base 2 to base 10.
+
+Task 12-combinations : printf "%s\n" {a..z}{a..z} | grep -v "oo" : The script prints all possible combinations of two letters, except oo.
