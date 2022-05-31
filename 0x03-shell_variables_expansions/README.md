@@ -29,3 +29,5 @@ Task 13-print_float : printf "%.2f\n" $NUM : The script prints a number with two
 Task 100-decimal_to_hexadecimal : printf "%x\n" $DECIMAL : The script converts a number from base 10 to base 16
 
 Task 101-rot13 : tr 'a-zA-Z' 'n-za-mN-ZA-M' : The script encodes and decodes text using the rot13 encryption. It assumes ASCII.
+
+Task 102-odd : cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2 : The script prints every other line from the input, starting with the first line.
