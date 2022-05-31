@@ -7,3 +7,5 @@ Task 2-path : export PATH=$PATH:/action : The script adds /action to PATH.
 Task 3-paths : echo $PATH | tr -s ":" "\n" | wc -l : The script counts the number of directories in the PATH
 
 Task 4-global_variables : printenv : The script lists all environment variables
+
+Tast 5-local_variables : set : The script lists all local variables and environment variables, and functions.
