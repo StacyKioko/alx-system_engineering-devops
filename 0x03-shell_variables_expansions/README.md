@@ -15,3 +15,5 @@ Task 6-create_local_variable : BEST="School" : The script creates a new local va
 Task 7-create_global_variable : export BEST="School" : The script creates a new global variable
 
 Task 8-true_knowledge : echo "$((TRUEKNOWLEDGE+=128))" : The script prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+
+Task 9-divide_and_rule: echo $((POWER/DIVIDE)) : The script prints the result of POWER divided by DIVIDE, followed by a new line.
