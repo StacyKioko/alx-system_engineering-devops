@@ -13,3 +13,5 @@ Tast 5-local_variables : set : The script lists all local variables and environm
 Task 6-create_local_variable : BEST="School" : The script creates a new local variable
 
 Task 7-create_global_variable : export BEST="School" : The script creates a new global variable
+
+Task 8-true_knowledge : echo "$((TRUEKNOWLEDGE+=128))" : The script prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
