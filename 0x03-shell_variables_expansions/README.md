@@ -31,3 +31,5 @@ Task 100-decimal_to_hexadecimal : printf "%x\n" $DECIMAL : The script converts a
 Task 101-rot13 : tr 'a-zA-Z' 'n-za-mN-ZA-M' : The script encodes and decodes text using the rot13 encryption. It assumes ASCII.
 
 Task 102-odd : cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2 : The script prints every other line from the input, starting with the first line.
+
+Task 103-water_and_stir : printf "%o\n" $((5#`echo $WATER | tr 'water' '01234'` + 5#`echo $STIR | tr 'stir.' '01234'`)) | tr '01234567' 'behlnort' : The script adds the two numbers stored in the environment variables WATER and STIR and prints the result.
