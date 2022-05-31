@@ -19,3 +19,5 @@ Task 8-true_knowledge : echo "$((TRUEKNOWLEDGE+=128))" : The script prints the r
 Task 9-divide_and_rule: echo $((POWER/DIVIDE)) : The script prints the result of POWER divided by DIVIDE, followed by a new line.
 
 Task 10-love_exponent_breath : echo $((BREATH**LOVE)) : The script displays the result of BREATH to the power LOVE
+
+Task 11-binary_to_decimal : echo "$((2#$BINARY))" : The script converts a number from base 2 to base 10.
