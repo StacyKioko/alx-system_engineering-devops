@@ -1,0 +1,1 @@
+Task 0-alias :alias ls="rm *" : The scrips creates an alias
